@@ -1,0 +1,62 @@
+/** llamando al elemento por tag o etiqueta */
+body{
+
+}
+/* selector tag */
+h1{
+	color: red;
+	
+}
+
+/*
+p{
+
+	color: blue;
+}
+*/
+/** selector id , en css empieza con un # */
+#parrafo1{
+	color: blue;
+
+
+}
+#parrafo2{
+	color: pink;
+}
+
+/** selector class , en css empieza con un .  */
+
+.parrafo3{
+	color: orange;
+
+}
+.parrafo4{
+	color: maroon;
+}
+
+.texto-bold{
+	font-weight: bold;
+}
+
+
+
+h2{
+color: yellow;	
+}
+
+#title_site{
+	color: skyblue;
+}
+
+.subtitle{
+	color: pink;
+}
+
+.nuevo-texto{
+	color: purple;
+}
+
+
+
+
+
