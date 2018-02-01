@@ -1,0 +1,34 @@
+body{
+	font-family: arial;
+}
+.title-site{
+	/* nombre de color */
+	color: blue; 
+
+}
+.parrafo1{
+	/* formato hexadecimal */
+	color: #000000;
+	font-family:"Comic Sans MS";
+
+}
+
+.parrafo2{
+	/* formato rgb */
+	color: rgb(55, 255, 12);
+
+}
+
+.parrafo3{
+	/* formato hsl */
+	color: hsl(336, 100%, 50%);
+	font-size: 40px;
+}
+
+/** colores de fondo **/
+/*
+rgba(255,199,9,alfa)
+hsla(336, 100%, 50%,alfa);
+alfa = representa un numero entre 0 y 1 
+que me inidica el nivel de transparencia
+*/

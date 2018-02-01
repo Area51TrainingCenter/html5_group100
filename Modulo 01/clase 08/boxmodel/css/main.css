@@ -1,0 +1,25 @@
+.title{
+	color: green;
+	background-color: yellow;
+	display: inline;
+}
+.parrafo1{
+	color: purple;
+	background-color: green;
+	display: inline;
+}
+.texto1{
+	color: orange;
+	background-color: black;
+	display: inline;
+}
+.parrafo2{
+	color: red;
+	display: inline;
+	background-color: green;
+}
+.texto2{
+	color: blue;
+	display: inline;
+	background-color: skyblue;
+}
