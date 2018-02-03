@@ -1,0 +1,23 @@
+.title{
+	background-color: red;
+	color: #ffffff;
+	width: 100px;
+	height: 50px;
+
+}
+.texto{
+	background-color: blue;
+	color: white;
+	width: 1000px;
+	height: 300px;
+
+}
+
+/** los elementos de tipo block
+ocupan todo el ancho de la fila
+**/
+
+/**
+Los elementos de tipo inline ocupan solo 
+el contenido que usan 
+**/
