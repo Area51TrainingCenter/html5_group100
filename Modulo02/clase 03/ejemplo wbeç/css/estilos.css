@@ -1,0 +1,16 @@
+.header-site{
+	background-color: #111111;
+}
+
+.title{
+	color: white;
+	float: left;
+}
+.menu-text{
+	color: rgba(255, 255, 255, 0.5);
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
