@@ -1,14 +1,44 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
 .header-site{
 	background-color: #111111;
+	padding: 12px 18px;
 }
 
 .title{
 	color: white;
 	float: left;
+	font-size: 16px;
+
 }
 .menu-text{
 	color: rgba(255, 255, 255, 0.5);
 	float: right;
+	font-size: 16px;
+}
+
+.text-principal{
+	font-size: 60px;
+	text-transform: uppercase;
+
+
+}
+
+.parrafo-principal{
+	font-size: 22px;
+	line-height: 1.7;
+
+	width: 800px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.bloque-principal{
+	background-color: #c5c5c5;
+	text-align: center;
+	padding: 200px 0px;
 }
 
 .clear{
