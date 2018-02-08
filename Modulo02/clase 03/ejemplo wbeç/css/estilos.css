@@ -2,6 +2,9 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+*{
+	box-sizing: border-box;
+}
 .header-site{
 	background-color: #111111;
 	padding: 12px 18px;
@@ -44,7 +47,6 @@ display: inline-block;
 
 
 .sec-services{
-	
 	background-color: #ececec;
 	padding-top: 144px;
 	padding-bottom: 144px;
@@ -52,20 +54,42 @@ display: inline-block;
 
 .title-section{
 	font-size: 29px;
-	
 	text-align: center;
 	margin-bottom: 20px;
 }
 .parrafo-section{
-	
 	font-size: 18px;
 	line-height: 1.4;
 	text-align: center;
+	margin-bottom: 40px;
 }
 .centro{
 	width: 1024px;
 	margin:0 auto;
 }
+
+.icon-service{
+font-size: 60px;
+color: #ce1b28;
+}
+.item-service{
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	
+	padding: 40px 20px;
+}
+.item-service h3{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.item-service p{
+	font-size: 12px;
+}
+
+
+
 .clear{
 	clear: both;
 }
