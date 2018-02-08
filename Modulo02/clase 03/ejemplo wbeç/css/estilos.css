@@ -22,8 +22,8 @@ body{
 .text-principal{
 	font-size: 60px;
 	text-transform: uppercase;
-
-
+margin-bottom: 22px;
+display: inline-block;
 }
 
 .parrafo-principal{
@@ -32,7 +32,7 @@ body{
 
 	width: 800px;
 	margin:0 auto;
-	margin-top: 20px;
+
 }
 
 .bloque-principal{
@@ -41,6 +41,31 @@ body{
 	padding: 200px 0px;
 }
 
+
+
+.sec-services{
+	
+	background-color: #ececec;
+	padding-top: 144px;
+	padding-bottom: 144px;
+}
+
+.title-section{
+	font-size: 29px;
+	
+	text-align: center;
+	margin-bottom: 20px;
+}
+.parrafo-section{
+	
+	font-size: 18px;
+	line-height: 1.4;
+	text-align: center;
+}
+.centro{
+	width: 1024px;
+	margin:0 auto;
+}
 .clear{
 	clear: both;
 }
