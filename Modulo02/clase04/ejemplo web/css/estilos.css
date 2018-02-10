@@ -76,20 +76,36 @@ color: #ce1b28;
 	width: 300px;
 	background-color: white;
 	text-align: center;
-	
-	padding: 40px 20px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 40px;
+		margin-left: 14px;
+	margin-right: 14px;
+	margin-bottom: 20px;
 }
+
 .item-service h3{
 	font-size: 18px;
 	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.center{
+	text-align: center;
 }
 
 .item-service p{
-	font-size: 12px;
+	font-size: 13px;
+	line-height: 1.8;
 }
 
 
-
+.padding-section{
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
 .clear{
 	clear: both;
 }
