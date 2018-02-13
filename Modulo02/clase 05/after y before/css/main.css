@@ -1,0 +1,26 @@
+.title{
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	font-family: arial;
+}
+.title:before{
+content: "Tema1: ";
+font-size: 22px;
+color: white;
+}
+.title:after{
+content: "";
+width: 20px;
+height: 20px;
+display: inline-block;
+background-color: blue;
+vertical-align: top;
+}
+.title2:before{
+	content: url("../img/icono.png");
+
+}
+
+
