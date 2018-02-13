@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="container">
+<header>
+	<nav class="nav-site">
+		<ul>
+			<li class="item-principal">
+				Inicio
+			</li>
+			<li class="item-principal"> Nosotros
+					<ul class="submenu">
+						<li>Nosotros2.1</li>
+						<li>Nosotros2.2</li>
+					</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+</div>
+</body>
+</html>
+<style type="text/css">
+	.container{
+		width: 970px;
+		margin:0 auto;
+	}
+	.nav-site li.item-principal{
+
+display: inline-block;
+vertical-align: top;
+padding: 10px;
+font-family: arial;
+background-color: black;
+color: white;
+position: relative;
+z-index: 100;
+	}
+	.nav-site li.item-principal:hover 	.submenu{
+		/*display: block;*/
+		top: 30px;
+
+	}
+	.submenu {
+		margin: 0px;
+		padding: 0px;
+		margin-top: 10px;
+		position: absolute;
+		top: -30px;
+		left: 0px;
+		transition: all 0.3s linear;
+		z-index: 50;
+		/*display: none;*/
+	}
+	.submenu li{
+		display: block;
+		padding: 10px;
+		background-color: blue;
+		margin-bottom: 3px;
+		list-style-type: none;
+	}
+</style>

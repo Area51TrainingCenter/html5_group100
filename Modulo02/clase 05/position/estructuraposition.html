@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<article class="item">
+	<div class="over-img">
+		<img src="http://via.placeholder.com/400x300">
+		<h2 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm</h2>
+	</div>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+<article class="item2">
+	<img src="http://via.placeholder.com/400x300">
+	<div class="capa">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
+	</div>
+</article>
+
+</body>
+</html>
+
+<style type="text/css">
+*{
+	margin:0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.over-img{
+	position: relative;
+}
+	.item{
+		width: 410px;
+		background-color: red;
+		
+	}
+	.title{
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-family: arial;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.item2{
+		margin: 20px;
+		width: 400px;
+		position: relative;
+
+	}
+	.item2:hover .capa{
+		opacity: 1;
+	}
+	.capa{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		/*display: none;*/
+		opacity: 0;
+	}
+	.capa p{
+		color: white;
+		font-size:20px;
+		padding: 10px;
+		font-family: arial;
+		text-align: center;
+	}
+
+
+
+</style>
