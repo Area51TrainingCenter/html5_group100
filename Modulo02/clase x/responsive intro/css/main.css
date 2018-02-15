@@ -1,0 +1,15 @@
+.contenedor{
+		width: 970px;
+		height: 300px;
+		background-color: red;
+		margin:0 auto;
+	}
+
+@media screen and (min-width: 0px) and (max-width: 970px) {
+    .contenedor {
+        background-color: black;
+        width: 90%;
+    }
+}
+
+
