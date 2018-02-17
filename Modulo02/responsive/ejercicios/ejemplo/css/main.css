@@ -1,0 +1,179 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+	width: 1130px;
+	margin:0 auto;
+}
+.news-item{
+	width: 810px;
+	float: left;
+	text-align: center;
+}
+.item-new{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin:12px;
+}
+.item-new h2{
+	font-weight: 700;
+	font-size: 18px;
+	min-height: 68px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+.item-new .pic-new{
+	width: 100%;
+}
+
+.category-viral{
+	background-color: red;
+	display: inline-block;
+	vertical-align: top;
+	padding: 7px 15px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 10px;
+}
+
+
+.box-laterral
+{
+	width: 320px;
+	float: left;
+}
+.lateral-news{
+	width: 300px;
+	margin:0 auto;
+}
+
+.lateral-news .item-new{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.title-lateral-news{
+	display: inline-block;
+	font-size: 23px;
+	font-weight: 700;
+	padding: 15px 10px;
+	border-bottom: 2px solid red;
+	text-transform: uppercase;
+
+}
+
+
+
+
+
+.item-post-new{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.img-post-featured{
+	width: 90%;
+	max-width: 650px;
+	margin:0 auto;
+}
+.img-post-featured img{
+	width: 100%;
+}
+.item-post-title
+{
+font-size: 22px;
+font-weight: 700;
+line-height: 1.2;
+}
+.item-post-time
+{
+font-size: 14px;
+color: #848484;
+display: block;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+
+.item-post-detail{
+	padding-top: 30px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: black;
+	padding-bottom: 30px;
+}
+.item-post-detail p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.clear{
+	clear: both;
+}
+.footer-site{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+}
+
+
+/** responsive **/
+@media screen and (min-width: 0px) and (max-width: 1130px){
+	.container{
+		width: 100%;
+	}
+	.news-item{ float: none;
+		margin:0 auto;
+		width: 100%;
+	 }
+	.box-laterral{
+		float: none;
+		margin:0 auto;
+	}
+	.item-new{
+		width: 22%;
+		margin:1%;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 700px){
+.item-new{
+		width: 30%;
+		margin:1%;
+	}
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+.item-new{
+		width: 30%;
+		margin:1%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.item-new{
+		width: 42%;
+		margin:1%;
+	}
+}
+
+
+/** end responsive **/
+
+
+
+
