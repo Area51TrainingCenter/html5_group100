@@ -148,11 +148,27 @@ margin-bottom: 15px;
 		width: 22%;
 		margin:1%;
 	}
+	.box-laterral{
+		width: 100%;
+	}
+	.lateral-news{
+		width: 100%;
+		padding: 20px;
+	}
+	.lateral-news .item-new{
+		width: 32%;
+	}
+	.title-lateral-news{
+		display: block;
+	}
 }
 @media screen and (min-width: 0px) and (max-width: 700px){
 .item-new{
 		width: 30%;
 		margin:1%;
+	}
+		.lateral-news .item-new{
+		width: 45%;
 	}
 }
 
@@ -168,6 +184,9 @@ margin-bottom: 15px;
 	.item-new{
 		width: 42%;
 		margin:1%;
+	}
+	.lateral-news .item-new{
+		width: 100%;
 	}
 }
 
