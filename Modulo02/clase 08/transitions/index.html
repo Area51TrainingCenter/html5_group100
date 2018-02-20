@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="box">
+	
+</div>
+
+</body>
+</html>
+<style type="text/css">
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		transition-property: all;
+		transition-duration: 0.2s;
+		transition-timing-function: linear; /* la animacion es igual en todo momento */
+		transition-timing-function: ease-in;  /* la animacion es mas rapida al inicio */ 
+		transition-timing-function: ease-out; /* la animacion es mas rapida al final */
+		transition-timing-function: ease-in-out; /*
+		la animacion es rapiada al inicio va luego normal y finaliza de manera rapida */
+		/* transition-delay: 5s; definie el tiempo de delay de la animacion */
+		transition: all 0.3s linear ;
+	}
+		.box:hover{
+			width: 400px;
+			height: 400px;
+			margin-top: 40px;
+			background-color: blue;
+			border-radius: 50%;
+
+		}
+</style>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="item">
+		<img src="foto.png">
+		<div class="capa"></div>
+	</div>
+</body>
+</html>
+<style type="text/css">
+	.capa{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,0,0,0.9);
+		opacity: 0;
+		transition: all 0.4s linear;
+		transform: scale(0);
+	}
+	.item{
+		width: 300px;
+		height: 300px;
+		position: relative;
+		overflow: hidden;
+
+	}
+		.item:hover .capa{
+			opacity: 1;
+			transform: scale(1.5);
+		}
+</style>

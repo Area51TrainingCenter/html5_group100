@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="box">
+	<img src="foto.png">
+</div>
+<div class="box2"></div>
+
+<div class="box3"></div>
+<div class="box4"></div>
+</body>
+</html>
+<style type="text/css">
+	.box{
+		
+		padding: 10px;
+		display: inline-block;
+		background-color: red;
+		transition: all 1s linear;
+		
+	}
+	.box:hover{
+		/*transform: rotate(720deg);*/
+		transform: rotate(180deg) translate(200px,200px);
+	}
+
+	.box2{
+		width: 300px;
+		height: 300px;
+		margin:50px;
+		background-color: green;
+		transition:all 0.3s linear;
+		opacity: 0;
+	}
+	.box2:hover{
+		transform: translate(200px,0px) rotate(90deg);
+	
+		opacity: 1;
+	}
+
+
+	.box3{
+		width: 300px;
+		height: 300px;
+		margin:50px;
+		background-color: blue;
+		transition:all 0.3s linear;
+		
+	}
+	.box3:hover{
+		
+		 transform: scale(3);
+	}
+	.box4{
+	width: 100px;
+		height: 100px;
+		background-color: orange;
+	}
+</style>

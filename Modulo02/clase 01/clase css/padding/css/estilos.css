@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.title{
+		background-color: red;
+		color: white;
+		margin:20px;
+		text-align: center;
+		padding: 20px;
+		/*
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		
+		padding: 10px 20px;
+
+		padding: 20px 20px 20px 20px;
+	
+		*/
+	}
+
+	.textos{
+		width: 400px;
+		background-color: green;
+		padding: 40px;
+	}
+
+	.parrafo{
+		color: white;
+		font-family: arial;
+
+	}
+	.ejemplo{
+		width: 600px;
+		background: pink;
+	}
+	.box{
+	
+		width: 294px;
+		height: 200px;
+		background: blue;
+		margin:1px;
+		display: inline-block;
+		vertical-align: top;
+		padding: 40px;
+	}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="cancha">
+	<div class="player1"></div>
+	<div class="balon"></div>
+	<div class="circulo"></div>
+	<div class="centro"></div>
+	<div class="player2"></div>
+</div>
+
+</body>
+</html>
+<style type="text/css">
+	.cancha{
+		width: 600px;
+		height: 300px;
+		background-color: black;
+		position: relative;
+	}
+	.centro{
+		width: 4px;
+		position: absolute;
+		left: 50%;
+		margin-left: -2px ;
+		height: 100%;
+		background-color: white;
+	}
+	.circulo{
+		width: 100px;
+		height: 100px;
+		background-color: black;
+		border-radius: 50%;
+		border:3px solid white;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -50px;
+		margin-top: -50px;
+	}
+	.player1{
+		width: 20px;
+		height: 100px;
+		background-color: white;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		animation: mov1 5s infinite;
+	}
+	.player2{
+		width: 20px;
+		height: 100px;
+		background-color: white;
+		position: absolute;
+		right : 10px;
+		bottom: 10px;
+	}
+	.balon
+	{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: white;
+		position: absolute;
+		left: 40px;
+		top: 10px;
+		animation: balon 5s infinite
+	}
+	@keyframes mov1{
+		0%{top: 10px;}
+		25%{top: 90px;}
+		50%{top: 160px;}
+		75%{top: 50px;}
+		100%{top: 10px;}
+	}
+
+	@keyframes balon{
+		    
+		0%{left: 40px;
+		top: 10px;}
+		25%{
+			left: 530px;
+    	top: 230px;
+    }
+		50%{left: 40px;
+			top: 180px;}
+		75%{left: 530px;
+    	top: 230px;}
+		100%{left: 40px;
+		top: 10px;}
+
+	}
+
+</style>
