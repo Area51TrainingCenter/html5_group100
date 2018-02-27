@@ -1,4 +1,4 @@
-$(".menu-site").click(function(){
+$(".ico-nav").click(function(){
 	$(".modal-menu").fadeIn();
 })
 $(".close-modal").click(function(){
