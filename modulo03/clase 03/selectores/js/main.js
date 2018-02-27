@@ -14,7 +14,7 @@ btn_mostrar[0].addEventListener();
 
 */
 
-
+var btn_mostrar;
 btn_mostrar=document.getElementById('mostrar');
 btn_ocultar=document.getElementById("ocultar");
 
