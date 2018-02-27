@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div>
+	<nav class="menu-site">
+	<span class="ico-nav">Menu</span>
+		<ul>
+			<li>Inicio</li>
+			<li>Nosotros</li>
+			<li>Servicios</li>
+			<li>Inicio</li>
+			<li>Nosotros</li>
+			<li>Servicios</li>
+		</ul>
+		
+	</nav>
+</div>
+
+</body>
+</html>
+<style type="text/css">
+	.menu-site{
+		background-color: black;
+
+	}
+	.menu-site li {
+		display: inline-block;
+		vertical-align: top;
+		padding: 20px;
+		color: white;
+		font-family: arial;
+	}
+	.ico-nav{
+		display: inline-block;
+		vertical-align: top;
+		padding: 20px;
+		color: white;
+		font-family: arial;
+		display: none;
+	}
+	@media (max-width: 700px){
+		.menu-site ul{
+			display: none;
+		}
+		.ico-nav{
+			display: block;
+		}
+		.menu-site li{
+			display: block;
+		}
+	}
+</style>
