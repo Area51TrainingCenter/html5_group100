@@ -1,0 +1,57 @@
+.contenedor{
+	width: 970px;
+	margin:0 auto;
+}
+.title{
+	float: left;
+}
+.list-redes{
+	float: right;
+}
+.list-redes li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+.clear{
+	clear: both;
+}
+.box-slider{
+	width: 970px;
+	height: 300px;
+	background-color: black;
+}
+
+@media (max-width: 970px){
+	.contenedor{
+		width: 100%;
+		background-color: red;
+	}
+	.box-slider{
+	width: 100%;  }
+	.box-slider{
+		background-color: green;
+	}
+}
+@media (max-width: 768px){
+	.box-slider{
+		background-color: blue;
+	}
+}
+
+@media (max-width: 530px){
+.list-redes{
+	display: none;
+}	
+.title{
+	text-align: center;
+	width: 100%;
+}
+.box-slider{
+	background-color: skyblue;
+}
+}
+
+
+
+
