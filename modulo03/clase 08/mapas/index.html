@@ -15,29 +15,42 @@
 		height: 500px;
 	}
 </style>
+<script type="text/javascript" src="js/estilosmapa.js"></script>
 <script type="text/javascript">
 	function crearMapa(){
+
+	
 
 			var centroMapa=new google.maps.LatLng(-12.0830032,-77.0304003);
 			
 			var propiedadesMapa={
 				center:centroMapa,
-				zoom:15
+				zoom:15,
+				styles:estiloMapa2
+
 			}
 
 			//new google.maps.map("elemento","propiedades")
 			var elementoMapa=document.getElementById("google-mapa");
-			new google.maps.Map(elementoMapa,propiedadesMapa);
+			var mapa=new google.maps.Map(elementoMapa,propiedadesMapa);
+
+			var marker=new google.maps.Marker({
+				position:centroMapa,
+				animation:google.maps.Animation.BOUNCE,
+				icon:"http://via.placeholder.com/50x50"
+			 })
+			marker.setMap(mapa);
 
 
 
 
 
-		/*
-		
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-		*/
+
+
+
+
+
+
 	}
 </script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeIN37tIQM9eg5jhpzv1UCWlcOsZQAvwE&callback=crearMapa"></script>
@@ -47,9 +60,6 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 </html>
 
 <style type="text/css">
-	.container{
-		width: 970px;
-		margin:0 auto;
-	}
+	
 </style>
 
